@@ -1,6 +1,6 @@
 import sys
 
-sys.path += "../../Maverick"
+sys.path += "../../"
 
 from colorama import init, Fore, Back, Style
 from src.data.dataRunner import getUserData

@@ -1,1 +1,1 @@
-# add
+print("The help app is coming in 0.0.3!")

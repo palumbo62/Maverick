@@ -1,6 +1,6 @@
 import sys
 
-sys.path += "../../Maverick"
+sys.path += "../../"
 
 from getpass import getpass
 from src.data.dataRunner import getUserData

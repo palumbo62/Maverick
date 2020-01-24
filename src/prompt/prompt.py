@@ -9,7 +9,7 @@ def prompt():
 
     # loading start
 
-    # buildData()
+    buildData(True)
     userdata = getUserData()
 
     colorama.init() # init colorama for all system files
