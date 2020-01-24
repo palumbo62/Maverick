@@ -13,8 +13,8 @@ def buildData(firstRunCheck):
 
     if firstRunCheck == True:
         try:
-            userdata["buildTest"]
-            return
+            if userdata["buildTest"] == True:
+                return
         except:
             pass
 
