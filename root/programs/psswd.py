@@ -25,5 +25,7 @@ def reset():
 
     userdata["password"] = hashlib.sha256(new.encode()).hexdigest()
 
+    userdata.close()
+
 if __name__ == "__main__":
     reset()
